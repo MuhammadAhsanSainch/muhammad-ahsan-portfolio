@@ -18,7 +18,6 @@ You can explore the live version of the website [Click to see live demo](https:/
 - [Usage Guide](#usage-guide)
 - [Contributions](#contributions)
 - [Contact Me](#contact-me)
-- [License](#license)
 
 ## Key Features
 
@@ -75,9 +74,6 @@ Your feedback and thoughts are highly valued. Feel free to connect with me throu
 - **Email:** ahsansainch@gmail.com
 - **LinkedIn:** [Muhammad Ahsan Sainch](https://www.linkedin.com/in/muhammad-ahsan-sainch)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
