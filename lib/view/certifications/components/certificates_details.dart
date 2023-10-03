@@ -93,10 +93,10 @@ class CertificateStack extends StatelessWidget {
                     ),
                   ),
                 ),
-
               ],
             ),
           )),
     );
   }
 }
+

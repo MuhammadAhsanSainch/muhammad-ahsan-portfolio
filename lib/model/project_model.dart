@@ -3,10 +3,17 @@ class Project {
   final String description;
   final String image;
   final String link;
+
   Project(this.name, this.description, this.image, this.link);
 }
 
 List<Project> projectList = [
+  Project(
+    'Portfolio Web & Mobile App',
+    "Flutter portfolio Web is meticulously designed to provide a consistent and visually pleasing experience across a wide variety of devices. Whether you're accessing the website on a large desktop screen, a laptop, a tablet, or a small Android smartphone, the layout and content will adapt gracefully to ensure optimal usability.",
+    'assets/images/showcase.png',
+    'https://github.com/MuhammadAhsanSainch/muhammad-ahsan-portfolio.git',
+  ),
   Project(
     'Banking & Finance Application',
     '"Qbanc" is a cutting-edge mobile application developed with Flutter, designed to empower users in the realm of banking and finance. This intuitive app provides a seamless and secure platform for individuals to manage their financial activities on the go. With "Qbanc," users can effortlessly track their accounts, view transaction history, transfer funds, pay bills, and receive real-time notifications, ensuring they stay informed and in control of their finances. The app\'s sleek and user-friendly interface, coupled with robust security measures, guarantees a seamless user experience while safeguarding sensitive financial data. "Qbanc" sets a ​new standard for modern banking and finance apps, combining functionality, convenience, and reliability to empower users in achieving their financial goals.',
@@ -14,7 +21,7 @@ List<Project> projectList = [
     'https://youtu.be/JJ5KJ4o-5rQ?si=wXQd-Ndsm_oPwPla',
   ),
   Project(
-    'Arm-up A Banking App',
+    'Arm-up A Banking Project',
     'Arm-up mobile app developed using the Flutter framework to provide users with a convenient and secure way to access their bank accounts and perform transactions. The app includes features such as account balance checking, money transfers, bill payments, and more.',
     'assets/images/arm-up-new.jpeg',
     'https://youtu.be/HZvxYnq6sy4?si=7ywT67_r9e5b2tlK',
@@ -48,10 +55,5 @@ List<Project> projectList = [
       'Flutter Chat Application with Firebase',
       'Welcome to our innovative Flutter chat application! This feature-rich messaging platform allows users to connect and communicate seamlessly through text and images. The app is built using Flutter for the frontend and integrates with Firebase for backend services, including authentication, real-time database, and storage.',
       'assets/images/chat.png',
-      'https://github.com/MuhammadAhsanSainch/'),
-  Project(
-      'Covid Tracker App',
-      'This is a mobile application designed & developed with Flutter and RESTful APIs to track the spread of COVID-19, and provide users with real-time information on the pandemic. This app uses data provided by health organizations and government agencies to keep users informed about the latest information, such as infection rates, death and recovered ratio etc.',
-      'assets/images/covid-tracker-app.jpeg',
       'https://github.com/MuhammadAhsanSainch/'),
 ];
